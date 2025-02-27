@@ -1,0 +1,32 @@
+# Ignore build directories (for all projects)
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Makefile
+**/*.out
+
+# Ignore CMake-generated files
+**/CMakeCache.txt
+**/Makefile
+
+# Ignore compiled binaries (for all projects)
+**/*.exe
+**/*.o
+**/*.a
+**/*.dll
+**/*.so
+
+# Ignore IDE configuration files (like VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+*.user
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore miscellaneous temporary files
+*.log
+*.bak
+*.tmp
